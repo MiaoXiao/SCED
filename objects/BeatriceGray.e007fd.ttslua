@@ -1,0 +1,48 @@
+sakamoto_guid = 'e00802'
+deck_1_guid = 'a10247'
+
+function onload()
+     button_parameters = {
+        click_function = "shuffleSakamoto",
+        function_owner = self,
+        label          = "Shuffle\nSakamoto",
+        position       = {1.75, 0.8, 0},
+        rotation       = {0, 0, 0},
+        width          = 500,
+        height         = 500,
+        font_size      = 150,
+        tooltip        = "Shuffle Sakamoto into the top 10 cards of a player's deck.",
+    }
+    self.createButton(button_parameters)    
+end
+
+
+function shuffleSakamoto()
+
+    --TODO: check if deck exists
+    --TODO: find sakamoto by tag
+    deck = getObjectFromGUID(deck_1_guid)
+    sakamoto = getObjectsWithTag("Sakamoto")[1]
+
+    if sakamoto == nil then
+        broadcastToAll("Sakamoto must be in play before he can be shuffeled into another player's deck!")
+    elseif deck.getQuantity() > 10 then
+        --print("Shuffle into deck more than 10 size")
+        splitDecks = deck.cut(deck.getQuantity() - 10)
+        Wait.frames(function ()
+            remaining = splitDecks[2]
+            top10 = splitDecks[1]
+            sakamoto.putObject(top10, 1)
+            top10.randomize()
+            remaining.rotate({x=0, y=90, z=0})
+            remaining.putObject(top10, 1)
+            end
+            , 1
+        )
+    else
+        --print("Shuffle into deck with 10 or less size")
+        sakamoto.putObject(deck, 1)
+        deck.randomize()
+     end
+
+    end
