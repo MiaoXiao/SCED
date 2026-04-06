@@ -1,0 +1,126 @@
+flame_token = nil
+chaos_bag = nil
+token_stack = nil
+sealed_tokens = {
+    [1] = "",
+    [2] = "",
+    [3] = "",
+    [4] = ""
+}
+
+token_index = 0
+
+spawned_text = nil
+
+function onLoad()
+     sealTokenParams = {
+        click_function = "sealFlameToken",
+        function_owner = self,
+        label          = "Seal\nToken",
+        position       = {1.45, 0.8, -0.5},
+        rotation       = {0, 0, 0},
+        width          = 375,
+        height         = 400,
+        font_size      = 100;
+    }
+    unsealTokenParams = {
+        click_function = "unsealFlameToken",
+        function_owner = self,
+        label          = "Release\nToken",
+        position       = {1.45, 0.8, 0.5},
+        rotation       = {0, 0, 0},
+        width          = 376,
+        height         = 400,
+        font_size      = 100;
+    }
+    self.createButton(sealTokenParams)
+    self.createButton(unsealTokenParams)
+
+    flame_token = spawnObject({
+        type = "Custom_Tile",
+    })
+    flame_token.setCustomObject(
+        {
+            type = 2,
+            image = "https://steamusercontent-a.akamaihd.net/ugc/11527309903195843036/CD69B446C2CE29FFA5E9BED13B899AF8E519F551/",
+            thickness = 0.2,
+            stackable = false
+        }
+    )
+    flame_token.setName("FlameToken")
+   
+    chaos_bag = Global.call("findChaosBag")
+
+    for i = 1,4,1 do
+        flame_token.clone({
+            position = chaos_bag.getPosition()
+        })    
+        --token.putObject(chaos_bag, 1)
+        --print("place flame token")
+    end
+
+    destroyObject(flame_token)
+end
+
+function sealFlameToken()
+    local found_token_index = nil
+    for _, token in ipairs(chaos_bag.getObjects()) do
+        if token.name == "FlameToken" then
+            found_token_index = token.index
+            break
+        end
+    end
+
+    if found_token_index == nil then
+        broadcastToAll("There are no Flame Tokens in the chaos bag.")
+    else
+        token = chaos_bag.takeObject({
+            index = found_token_index,
+        })
+        
+        token.setPosition(self.getPosition() + 
+                self.getTransformRight() * 0.75 +
+                self.getTransformUp() * 1.0
+            )
+        token.setRotation(self.getRotation())
+        token.setCustomObject({
+            thickness = 0.2,
+            stackable = false
+        })
+
+        --add to sealed token table
+        token_index = 1 + token_index
+        table.insert(sealed_tokens, token)
+
+        if (spawned_text == nil) then
+            spawned_text = spawnObject({
+                position = token.getPosition(),
+                rotation = token.getRotation(),
+                color = {0, 0, 0},
+                type = "3DText",
+            })
+            spawned_text.rotate({x=90, y=180, z=0})
+        end
+        spawned_text.TextTool.setValue(tostring(token_index))
+
+        token.interactable = false
+    end
+end
+
+function unsealFlameToken()
+    if (token_index == 0) then
+         broadcastToAll("No Flame Tokens to Release") 
+    else
+        token = table.remove(sealed_tokens)
+        token.interactable = true
+        chaos_bag.putObject(token)
+        token_index = token_index - 1
+
+        if (token_index == 0) then
+            destroyObject(spawned_text)
+            spawned_text = nil
+        else
+            spawned_text.TextTool.setValue(tostring(token_index))
+        end
+    end
+end
