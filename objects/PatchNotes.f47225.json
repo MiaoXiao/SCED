@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedDecals": [
     {
       "CustomDecal": {
@@ -58,6 +63,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -75,13 +81,25 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/62591346519941267/FF5AA34DC40A4D76DCE73852AAC3C4E2DDB418FB/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "f47225",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScriptState_path": "PatchNotes.f47225.luascriptstate",
   "LuaScript_path": "PatchNotes.f47225.ttslua",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Patch Notes",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": 3,
     "posY": 1.481,
@@ -92,5 +110,7 @@
     "scaleX": 8,
     "scaleY": 1,
     "scaleZ": 8
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

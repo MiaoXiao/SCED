@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 100,
   "CustomDeck": {
     "1": {
@@ -18,20 +24,39 @@
       "URL": "https://steamusercontent-a.akamaihd.net/ugc/2027213118467703445/89328E273B4C5180BF491516CE998DE3C604E162/"
     }
   ],
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/Strong-Armed1Taboo.294dt.gmnotes",
   "GUID": "294dt",
+  "Grid": true,
+  "GridProjection": false,
   "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/CardsThatRedrawTokens\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Strong-Armed (1) (Taboo)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard",
     "CardWithHelper"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

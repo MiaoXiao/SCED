@@ -1,21 +1,43 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/11793385799983378221/DE0EA9EA1D71A9B32FDAB290695632E303BB192E/",
     "MaterialIndex": 1,
     "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/2398822869388458903/AE05DD40A8FD3DC9826504AA8F27D82CAB69E745/",
+    "NormalURL": "",
     "TypeIndex": 4
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "7165a9",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "Decoration - Hat",
+  "Snap": true,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": -61.264,
@@ -27,5 +49,7 @@
     "scaleX": 5.25,
     "scaleY": 5.25,
     "scaleZ": 5.25
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

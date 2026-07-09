@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 200,
   "CustomDeck": {
     "2": {
@@ -7,21 +13,41 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2021607899142907736/26A4084EBB3F67E4F215DE15DAE2B7489F7D5FAD/",
       "NumHeight": 2,
       "NumWidth": 2,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"09081-t-c\",\n  \"type\": \"UpgradeSheet\",\n  \"cycle\": \"The Scarlet Keys\"\n}",
   "GUID": "ebce85",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/customizable/PowerWordUpgradeSheetTaboo\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Power Word Upgrade Sheet (Taboo)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

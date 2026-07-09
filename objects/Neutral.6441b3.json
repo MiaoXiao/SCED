@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0.4392,
     "g": 0.4314,
@@ -24,17 +30,28 @@
     }
   ],
   "Description": "Action / Ability Token",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "6441b3",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"tokens/UniversalActionAbilityToken\")",
   "LuaScriptState": "{\"class\":\"Neutral\",\"symbol\":\"Neutral\"}",
+  "MeasureMovement": false,
   "Memo": "universalActionAbility",
   "Name": "Custom_Tile",
   "Nickname": "Neutral",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "UniversalToken"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -39.159,
     "posY": 1.55,
@@ -45,5 +62,7 @@
     "scaleX": 0.45,
     "scaleY": 1,
     "scaleZ": 0.45
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 535502,
   "ContainedObjects_path": "SkidsOToole.9015b4",
   "CustomDeck": {
@@ -13,22 +19,41 @@
     }
   },
   "Description": "The Ex-Con",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/SkidsOToole.9015b4.gmnotes",
   "GUID": "9015b4",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "\"Skids\" O'Toole",
   "SidewaysCard": true,
+  "Snap": true,
   "States_path": {
     "2": "SkidsOToole.a41f81"
   },
+  "Sticky": true,
   "Tags": [
     "Investigator",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1.15,
     "scaleY": 1,
     "scaleZ": 1.15
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -17,20 +23,39 @@
     "WidthScale": 0
   },
   "Description": "Displays your hand size and maximum hand size. Right click for options.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "450688",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"accessories/HandHelper\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Hand Helper",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore",
     "displacement_excluded"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 0.8,
     "scaleY": 1,
     "scaleZ": 0.8
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

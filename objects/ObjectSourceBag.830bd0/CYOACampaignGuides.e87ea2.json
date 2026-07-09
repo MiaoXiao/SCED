@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "a": 0.27,
     "b": 1,
@@ -6,6 +12,9 @@
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0,
       "SpecularColor": {
@@ -19,20 +28,39 @@
     "DiffuseURL": "https://github.com/Antimarkovnikov/TTS_AHC_CYOA/blob/master/00%20CYOA.jpg?raw=true",
     "MaterialIndex": 3,
     "MeshURL": "https://github.com/Antimarkovnikov/TTS_AHC_CYOA/blob/master/Book%20Model.obj?raw=true",
+    "NormalURL": "",
     "TypeIndex": 0
   },
   "Description": "by Antimarkovnikov",
+  "DragSelectable": true,
   "GMNotes": "{\"filename\":\"cyoa_campaign_guides\"}",
   "GUID": "e87ea2",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"core/DownloadBox\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "CYOA Campaign Guides",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1.25,
     "scaleY": 1.25,
     "scaleZ": 1.25
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

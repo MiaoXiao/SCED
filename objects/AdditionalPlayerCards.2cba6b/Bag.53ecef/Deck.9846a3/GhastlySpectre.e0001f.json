@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 118100,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1181": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2342503777940352139/A2D42E7E5C43D045D72CE5CFC907E4F886C8C690/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/16217162953432708709/F22096EBE8236D91CA9CC6DD184CA3B113948F52/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": false
+    }
+  },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes_path": "AdditionalPlayerCards.2cba6b/Bag.53ecef/Deck.9846a3/GhastlySpectre.e0001f.gmnotes",
+  "GUID": "e0001f",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Ghastly Spectre",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Asset",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 0.211,
+    "posY": 1.057,
+    "posZ": 11.739,
+    "rotX": 359,
+    "rotY": 2,
+    "rotZ": 1,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

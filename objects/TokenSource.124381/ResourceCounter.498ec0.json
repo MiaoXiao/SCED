@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -16,20 +22,37 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/949599153663401115/EAA6D40FC6E15204BBE551BCDED35CC8C75111BF/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "498ec0",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"tokens/GenericCounter\")",
   "LuaScriptState": "0",
+  "MeasureMovement": false,
   "Memo": "resourceCounter",
   "Name": "Custom_Token",
   "Nickname": "Resource Counter",
   "Snap": false,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 0.3,
     "scaleY": 1,
     "scaleZ": 0.3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

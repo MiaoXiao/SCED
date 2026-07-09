@@ -1,4 +1,15 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
   "ContainedObjects_order": [
     "TheFool0.01cd9f",
     "TheMagicianI.0fd716",
@@ -31,7 +42,8 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2021606446230201267/C4CB25A240597A5E973CBE29E63FD5976D40F8E4//",
       "NumHeight": 4,
       "NumWidth": 6,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "DeckIDs": [
@@ -58,10 +70,26 @@
     266320,
     266321
   ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "77f1e5",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Deck",
   "Nickname": "Tarot Deck",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": -56.245,
     "posY": 1.618,
@@ -72,5 +100,7 @@
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

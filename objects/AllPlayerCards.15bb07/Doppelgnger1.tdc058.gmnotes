@@ -1,0 +1,11 @@
+{
+  "id": "11058",
+  "type": "Event",
+  "class": "Rogue",
+  "cost": 2,
+  "level": 1,
+  "traits": "Spell. Trick.",
+  "willpowerIcons": 1,
+  "agilityIcons": 1,
+  "cycle": "The Drowned City"
+}

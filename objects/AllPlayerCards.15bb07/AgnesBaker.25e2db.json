@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 535603,
   "ContainedObjects_path": "AgnesBaker.25e2db",
   "CustomDeck": {
@@ -20,23 +26,41 @@
     }
   ],
   "Description": "The Waitress",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/AgnesBaker.25e2db.gmnotes",
   "GUID": "25e2db",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/CardsWithPhaseButtons\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Agnes Baker",
   "SidewaysCard": true,
+  "Snap": true,
   "States_path": {
     "2": "AgnesBaker.6797bb"
   },
+  "Sticky": true,
   "Tags": [
     "Investigator",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1.15,
     "scaleY": 1,
     "scaleZ": 1.15
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 449526,
   "CustomDeck": {
     "4495": {
@@ -7,7 +13,8 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1697276706766470010/D835D3A12B12173C78B2FFA055FEFD6042AEDD38/",
       "NumHeight": 6,
       "NumWidth": 6,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "CustomUIAssets": [
@@ -17,20 +24,39 @@
       "URL": "https://steamusercontent-a.akamaihd.net/ugc/2027213118467703445/89328E273B4C5180BF491516CE998DE3C604E162/"
     }
   ],
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/WellConnected3.170127.gmnotes",
   "GUID": "170127",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/cards/WellConnected\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Well Connected (3)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard",
     "CardWithHelper"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

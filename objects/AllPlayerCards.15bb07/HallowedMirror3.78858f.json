@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 449522,
   "CustomDeck": {
     "4495": {
@@ -7,21 +13,42 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1697276706766470010/D835D3A12B12173C78B2FFA055FEFD6042AEDD38/",
       "NumHeight": 6,
       "NumWidth": 6,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/HallowedMirror3.78858f.gmnotes",
   "GUID": "78858f",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Hallowed Mirror (3)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

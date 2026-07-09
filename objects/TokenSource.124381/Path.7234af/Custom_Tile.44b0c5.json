@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0.60453,
     "g": 0.60453,
@@ -16,19 +22,40 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/13815382431563348149/C142502E0E83DD88FD20A21961857CC0E11288D0/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "44b0c5",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Memo": "path",
   "Name": "Custom_Tile",
   "Nickname": "",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Location"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 535704,
   "ContainedObjects_path": "WendyAdams.fc1d17",
   "CustomDeck": {
@@ -20,24 +26,42 @@
     }
   ],
   "Description": "The Urchin",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/WendyAdams.fc1d17.gmnotes",
   "GUID": "fc1d17",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/cards/WendyAdams\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Wendy Adams",
   "SidewaysCard": true,
+  "Snap": true,
   "States_path": {
     "2": "WendyAdams.11bcb3"
   },
+  "Sticky": true,
   "Tags": [
     "Investigator",
     "PlayerCard",
     "CardWithHelper"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1.15,
     "scaleY": 1,
     "scaleZ": 1.15
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

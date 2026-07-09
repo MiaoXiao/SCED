@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 103400,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1034": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/2342503777940352139/A2D42E7E5C43D045D72CE5CFC907E4F886C8C690/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/16160515960145267188/9D0AA28EFBA4235E840B8FF68AA7A86FACAF66AC/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": false
+    }
+  },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/Sakamoto.e00802.gmnotes",
+  "GUID": "e00802",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Sakamoto",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Asset",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 0.823,
+    "posY": 3.05,
+    "posZ": 11.822,
+    "rotX": 359,
+    "rotY": 180,
+    "rotZ": 358,
+    "scaleX": 0.82,
+    "scaleY": 1,
+    "scaleZ": 0.82
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

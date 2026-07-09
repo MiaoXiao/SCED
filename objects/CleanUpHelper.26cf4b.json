@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -34,18 +40,28 @@
     }
   ],
   "Description": "Cleans up the table for the next scenario during campaign play.\n\nThis includes moving cards and tokens into the trashcans, resetting counters and removing bless/curse tokens from the chaos bag.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "26cf4b",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"accessories/CleanUpHelper\")",
   "LuaScriptState": "{\"options\":{\"importTrauma\":true,\"removeDrawnLines\":false,\"tidyPlayermats\":true}}",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Clean Up Helper",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore",
     "i18n_XML"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": 8,
     "posY": 1.531,
@@ -57,5 +73,6 @@
     "scaleY": 1,
     "scaleZ": 2
   },
-  "XmlUI": "<Include src=\"accessories/CleanUpHelper.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"accessories/CleanUpHelper.xml\"/\u003e"
 }

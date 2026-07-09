@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 60025100,
   "CustomDeck": {
     "600251": {
@@ -11,17 +17,37 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"60251-m\",\n  \"type\": \"Minicard\"\n}",
   "GUID": "600251",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Carolyn Fern",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "MiniCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

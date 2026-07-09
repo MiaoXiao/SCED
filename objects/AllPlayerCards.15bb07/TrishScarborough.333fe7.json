@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 553402,
   "CustomDeck": {
     "5534": {
@@ -12,19 +18,38 @@
     }
   },
   "Description": "The Spy",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/TrishScarborough.333fe7.gmnotes",
   "GUID": "333fe7",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Trish Scarborough",
   "SidewaysCard": true,
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Investigator",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 180,
+    "rotZ": 0,
     "scaleX": 1.15,
     "scaleY": 1,
     "scaleZ": 1.15
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 585024,
   "CustomDeck": {
     "5850": {
@@ -7,22 +13,42 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1697276627309509299/3B0E32939EB4599CCE3596975637C90FE4EE1DD6/",
       "NumHeight": 5,
       "NumWidth": 6,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "Description": "Concerned Brother",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/RandallCho.1f50e9.gmnotes",
   "GUID": "1f50e9",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Randall Cho",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

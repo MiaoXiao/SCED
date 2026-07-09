@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 917314,
   "CustomDeck": {
     "9173": {
@@ -7,21 +13,42 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/2424696374430632272/9A953338B599473C1631AA82F75004CE941DA8B0/",
       "NumHeight": 7,
       "NumWidth": 10,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/Ofuda.860c1e.gmnotes",
   "GUID": "860c1e",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Ofuda",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

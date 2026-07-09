@@ -1,0 +1,68 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 6035100,
+  "CustomDeck": {
+    "60351": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/12840543123866001486/244364AD2E9E7E68BF724520D178857C375E9E1D/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/12280832494793459779/A0D4E0DA3CE0D9CB1B5E2BBC455C4788A1AD45F4/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "CustomUIAssets": [
+    {
+      "Name": "font_arkhamicons",
+      "Type": 1,
+      "URL": "https://steamusercontent-a.akamaihd.net/ugc/16577956848173876106/49B31DA9BD35FC54A6B33926EA220FBBB2CAD038/"
+    },
+    {
+      "Name": "token-blue",
+      "Type": 0,
+      "URL": "https://steamusercontent-a.akamaihd.net/ugc/13603340044969501197/DC8691C239014FE7DDABB886BB1D383C05DC490F/"
+    }
+  ],
+  "Description": "The Film Star",
+  "DragSelectable": true,
+  "GMNotes_path": "AllPlayerCards.15bb07/AndrPatel.60351.gmnotes",
+  "GUID": "60351",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "require(\"playercards/cards/AndrePatel\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "André Patel",
+  "SidewaysCard": true,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "CardWithHelper",
+    "Investigator",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
+    "rotY": 270,
+    "rotZ": 0,
+    "scaleX": 1.15,
+    "scaleY": 1,
+    "scaleZ": 1.15
+  },
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"playercards/AndrePatel.xml\"/\u003e"
+}

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0.76481,
     "g": 0.76481,
@@ -17,20 +23,30 @@
     "WidthScale": 0
   },
   "Description": "Left click - Increase\nRight click - Decrease",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "f182ee",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playarea/ActiveInvestigatorCounter\")",
   "LuaScriptState": "2",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Investigator Count",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
     "displacement_excluded",
     "NotInteractable"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -12.03,
     "posY": 1.473,
@@ -41,5 +57,7 @@
     "scaleX": 0.3,
     "scaleY": 1,
     "scaleZ": 0.3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

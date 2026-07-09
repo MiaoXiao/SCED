@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -121,6 +126,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -139,19 +145,29 @@
     "WidthScale": 0
   },
   "Description": "Automatically counts the earned VP from cards in the victory display and locations in the play area without clues on them.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "6ccd6d",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"mythos/VictoryDisplay\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Victory Display",
   "Snap": false,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
     "displacement_excluded"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -1.31,
     "posY": 1.531,
@@ -162,5 +178,7 @@
     "scaleX": 4,
     "scaleY": 1,
     "scaleZ": 4
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

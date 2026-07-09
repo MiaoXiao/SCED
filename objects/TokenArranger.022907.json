@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -17,14 +23,24 @@
     "WidthScale": 0
   },
   "Description": "Displays the content of the chaos bag in tabular fashion.\n\nSee context menu for additional information.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "022907",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"tokens/TokenArranger\")",
   "LuaScriptState_path": "TokenArranger.022907.luascriptstate",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Token Arranger",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": -16,
     "posY": 1.481,
@@ -35,5 +51,7 @@
     "scaleX": 6,
     "scaleY": 1,
     "scaleZ": 6
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

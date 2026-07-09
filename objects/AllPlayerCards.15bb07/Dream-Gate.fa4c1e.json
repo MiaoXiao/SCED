@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 541109,
   "CustomDeck": {
     "5411": {
@@ -7,22 +13,43 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1011562618093846571/13C76218853EE87123267F8F6BE99206DB40470B/",
       "NumHeight": 7,
       "NumWidth": 10,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/Dream-Gate.fa4c1e.gmnotes",
   "GUID": "fa4c1e",
+  "Grid": true,
+  "GridProjection": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Dream-Gate",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Location",
     "ScenarioCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 240,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

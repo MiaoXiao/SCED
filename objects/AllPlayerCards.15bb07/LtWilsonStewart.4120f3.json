@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 233607,
   "CustomDeck": {
     "2336": {
@@ -7,22 +13,42 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/784129708171655462/0B7EFEEA9A53B93350FEC7F68F39A20D1D6580A9/",
       "NumHeight": 7,
       "NumWidth": 10,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "Description": "Logistical Genius",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/LtWilsonStewart.4120f3.gmnotes",
   "GUID": "4120f3",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Lt. Wilson Stewart",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

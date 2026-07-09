@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 380128,
   "CustomDeck": {
     "3801": {
@@ -7,20 +13,41 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1016065725025945336/04E36F64C2CBE1B4905FF44A869C75EC52CB3A56/",
       "NumHeight": 7,
       "NumWidth": 10,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/EtherealForm.db90e2.gmnotes",
   "GUID": "db90e2",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Ethereal Form",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

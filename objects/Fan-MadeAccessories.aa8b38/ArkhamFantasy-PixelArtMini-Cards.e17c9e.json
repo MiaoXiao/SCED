@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "a": 0.8,
     "b": 1,
@@ -6,6 +12,9 @@
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0,
       "SpecularColor": {
@@ -19,20 +28,39 @@
     "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/1786216803655030730/FB25E1090FC3F69A55E021CB1A31B64FBB50BD23/",
     "MaterialIndex": 3,
     "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/62583916778515333/9F0BE0C211BE3BD1725B4B855F5D3C9C0D020394/",
+    "NormalURL": "",
     "TypeIndex": 0
   },
   "Description": "by Lemmingrad",
+  "DragSelectable": true,
   "GMNotes": "{\"filename\":\"arkham_fantasy_minicards\"}",
   "GUID": "e17c9e",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"core/DownloadBox\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "Arkham Fantasy - Pixel Art Mini-Cards",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1.2,
     "scaleY": 1.2,
     "scaleZ": 1.2
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

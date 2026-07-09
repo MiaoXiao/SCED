@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 232934,
   "CustomDeck": {
     "2329": {
@@ -7,23 +13,43 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/782999241295993974/70871F727ABBAB3DB22003051B5E1FBF8999AEEB/",
       "NumHeight": 7,
       "NumWidth": 10,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "Description": "Olaus Wormius Translation",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/TheNecronomicon.d45f10.gmnotes",
   "GUID": "d45f10",
+  "Grid": true,
+  "GridProjection": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "The Necronomicon",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

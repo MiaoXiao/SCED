@@ -1,15 +1,33 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
     "r": 1
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "chap2",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "3DText",
   "Nickname": "",
+  "Snap": true,
+  "Sticky": true,
   "Text": {
     "OwnerSteamID": 0,
     "Text": "Chapter 2",
@@ -20,6 +38,7 @@
     },
     "fontSize": 120
   },
+  "Tooltip": true,
   "Transform": {
     "posX": 69,
     "posY": 1.697,
@@ -30,5 +49,7 @@
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

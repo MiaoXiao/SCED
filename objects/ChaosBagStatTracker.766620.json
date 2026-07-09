@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0.87451,
     "g": 0.87451,
@@ -17,15 +23,27 @@
     "WidthScale": 0
   },
   "Description": "Click to display the stats for drawn chaos tokens in the chat.\n\nLeft-click: Full list for all playermats\nMiddle-Click: Display your own stats\nRight-click: Reset the stats",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "766620",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Chaos Bag Stat Tracker",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": 4.194,
     "posY": 1.621,
@@ -36,5 +54,7 @@
     "scaleX": 0.7,
     "scaleY": 1,
     "scaleZ": 0.7
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

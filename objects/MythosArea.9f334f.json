@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -75,6 +80,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -99,14 +105,24 @@
       "URL": "https://steamusercontent-a.akamaihd.net/ugc/2027213118467703445/89328E273B4C5180BF491516CE998DE3C604E162/"
     }
   ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "9f334f",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"mythos/MythosArea\")",
   "LuaScriptState": "{\"currentScenario\":\"\",\"tokenData\":[],\"useFrontData\":true}",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Mythos Area",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore",
     "i18n_XML",
@@ -124,5 +140,6 @@
     "scaleY": 1,
     "scaleZ": 6.5
   },
-  "XmlUI": "<Include src=\"MythosArea.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"MythosArea.xml\"/\u003e"
 }

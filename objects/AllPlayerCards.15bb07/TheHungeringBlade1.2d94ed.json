@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 590414,
   "CustomDeck": {
     "5904": {
@@ -7,22 +13,42 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1697277388086984548/E61F3E847797C2C9231829611E0D92BA6376FA67/",
       "NumHeight": 4,
       "NumWidth": 4,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "Description": "Calamitous Blade of Celephaïs",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/TheHungeringBlade1.2d94ed.gmnotes",
   "GUID": "2d94ed",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "The Hungering Blade (1)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

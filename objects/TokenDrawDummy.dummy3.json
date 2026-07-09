@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -16,15 +22,25 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2501268517219098388/0936FEE03B410319658B5E05DB5D486CEDDE98F5/",
     "WidthScale": 0
   },
+  "Description": "",
   "DragSelectable": false,
+  "GMNotes": "",
   "GUID": "dummy3",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playermat/TokenDrawDummy\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Memo": "Green",
   "Name": "Custom_Tile",
   "Nickname": "Token Draw Dummy",
+  "Snap": true,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": -42.252,
@@ -36,5 +52,7 @@
     "scaleX": 0.9,
     "scaleY": 1,
     "scaleZ": 0.9
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

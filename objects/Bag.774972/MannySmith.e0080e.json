@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 104400,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1044": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/13085606648252129241/CE87E7D8F4C29D409C322CBDC6971E95A25FB397/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15103651578579584470/81CA2FC7477E83FC11D9A55057B76B9C49B99F03/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "The Police Chief",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/MannySmith.e0080e.gmnotes",
+  "GUID": "e0080e",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Manny Smith",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Investigator",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 1.335,
+    "posY": 3.062,
+    "posZ": 11.745,
+    "rotX": 359,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 0.82,
+    "scaleY": 1,
+    "scaleZ": 0.82
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

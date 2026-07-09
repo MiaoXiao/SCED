@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102500,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1025": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/18392004431572352414/CCC24A4684B30869CB1586BFDF0BE97329F9C533/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/9395155849204282794/34955DEF168E4162FA76505F00F9261A03AB3874/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/MannySmith.e00810.gmnotes",
+  "GUID": "e00810",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Manny Smith",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Minicard",
+    "ScenarioCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": -0.685,
+    "posY": 3.029,
+    "posZ": 11.305,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 0.6,
+    "scaleY": 1,
+    "scaleZ": 0.6
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

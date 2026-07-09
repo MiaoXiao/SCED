@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102200,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1022": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/17174098353940488458/035B5C60979223C0C029438B73758F68A90835B3/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/11969515703977543658/E78EF43A63F62EB9E895D2FEC149C82BFE8C4138/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "The Tailor",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/SidneyDufrane.e0081e.gmnotes",
+  "GUID": "e0081e",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Sidney Dufrane",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Investigator",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 0.946,
+    "posY": 3.065,
+    "posZ": 11.575,
+    "rotX": 359,
+    "rotY": 180,
+    "rotZ": 179,
+    "scaleX": 0.82,
+    "scaleY": 1,
+    "scaleZ": 0.82
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

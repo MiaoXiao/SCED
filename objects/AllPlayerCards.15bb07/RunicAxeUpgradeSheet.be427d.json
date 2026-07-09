@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 846500,
   "CustomDeck": {
     "8465": {
@@ -11,21 +17,39 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"09022-c\",\n  \"type\": \"UpgradeSheet\",\n  \"cycle\": \"The Scarlet Keys\"\n}",
   "GUID": "be427d",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/customizable/RunicAxeUpgradeSheet\")",
   "LuaScriptState": "[[0,0,0,0,0,0,0,0,0,0],[\"\",\"\",\"\",\"\",\"\"]]",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Runic Axe Upgrade Sheet",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -57,6 +62,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -74,21 +80,40 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/16849629878785677835/031C639F0AEF410C9D6D838481794E132DE4F9AE/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "extend",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"accessories/PlayermatExtension\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Playermat Extension",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore",
     "PlayermatExtension"
   ],
   "Tooltip": false,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 4,
     "scaleY": 1,
     "scaleZ": 4
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

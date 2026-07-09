@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -16,17 +22,28 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/10649578136733475513/9A226B45DAAB7778722E33106A44C78EE4E7AD6B/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "652ff3",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"mythos/DoomInPlayCounter\")",
   "LuaScriptState": "false",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Other Doom in Play",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -5.9,
     "posY": 1.633,
@@ -37,5 +54,7 @@
     "scaleX": 0.25,
     "scaleY": 1,
     "scaleZ": 0.25
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

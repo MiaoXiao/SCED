@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -24,17 +30,24 @@
     }
   ],
   "Description": "Left- or right-click to change the value or type numbers while hovering.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "ucacheh",
   "Grid": false,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"tokens/DamageHorrorCounter\")",
   "LuaScriptState": "1",
+  "MeasureMovement": false,
   "Memo": "horror",
   "Name": "Custom_Token",
   "Nickname": "Use Cache Horror",
   "Snap": false,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": 78,
@@ -46,5 +59,7 @@
     "scaleX": 0.3,
     "scaleY": 1,
     "scaleZ": 0.3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,10 +1,19 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0,
       "SpecularColor": {
@@ -18,15 +27,27 @@
     "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/11750026809420402586/DB855D654FF79531C9956320152A4FECFFD039C5/",
     "MaterialIndex": 1,
     "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/879750610978796176/4A5A65543B98BCFBF57E910D06EC984208223D38/",
+    "NormalURL": "",
     "TypeIndex": 4
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "4ee1f2",
+  "Grid": true,
   "GridProjection": true,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "TableSurface",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
@@ -44,5 +65,7 @@
     "scaleX": 4,
     "scaleY": 1,
     "scaleZ": 5.45
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

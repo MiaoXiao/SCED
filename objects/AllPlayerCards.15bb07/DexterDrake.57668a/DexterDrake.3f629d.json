@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 274300,
   "CustomDeck": {
     "2743": {
@@ -12,17 +18,36 @@
     }
   },
   "Description": "Promo version",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/DexterDrake.57668a/DexterDrake.3f629d.gmnotes",
   "GUID": "3f629d",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Dexter Drake",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Minicard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 0.6,
     "scaleY": 1,
     "scaleZ": 0.6
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 552804,
   "ContainedObjects_path": "SilasMarsh.3f92cf",
   "CustomDeck": {
@@ -13,22 +19,41 @@
     }
   },
   "Description": "The Sailor",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/SilasMarsh.3f92cf.gmnotes",
   "GUID": "3f92cf",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Silas Marsh",
   "SidewaysCard": true,
+  "Snap": true,
   "States_path": {
     "2": "SilasMarshpromoversion.cd3308"
   },
+  "Sticky": true,
   "Tags": [
     "Investigator",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1.15,
     "scaleY": 1,
     "scaleZ": 1.15
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

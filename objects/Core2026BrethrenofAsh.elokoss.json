@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "a": 0.27451,
     "b": 1,
@@ -6,6 +12,9 @@
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0,
       "SpecularColor": {
@@ -19,15 +28,28 @@
     "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/9293702104512179669/9CA780D298B4E2083C0BE69377E8C30320E5D261/",
     "MaterialIndex": 3,
     "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/62583916778515295/AFB8F257CE1E4973F4C06160A2E156C147AEE1E3/",
+    "NormalURL": "",
     "TypeIndex": 0
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"CB12\",\n  \"type\": \"CampaignBox\",\n  \"filename\": \"brethren_of_ash\"\n}",
   "GUID": "elokoss",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"core/DownloadBox\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "Core 2026 / Brethren of Ash",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": 60,
     "posY": 1.481,
@@ -38,5 +60,7 @@
     "scaleX": 1,
     "scaleY": 0.14,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "a": 0.7451,
     "b": 0.5453,
@@ -6,12 +12,23 @@
     "r": 0.5453
   },
   "Description": "horizontal border right",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "75937e",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "BlockRectangle",
   "Nickname": "Table Divider",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
@@ -29,5 +46,7 @@
     "scaleX": 0.25,
     "scaleY": 0.1,
     "scaleZ": 17
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 536205,
   "CustomDeck": {
     "5362": {
@@ -7,22 +13,42 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1697276706761486024/CC7FAD210F216229F1A721BF648855D156F052D5/",
       "NumHeight": 2,
       "NumWidth": 4,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "Description": "Advanced",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/Rolands38Special.dbdaff.gmnotes",
   "GUID": "dbdaff",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Roland's .38 Special",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

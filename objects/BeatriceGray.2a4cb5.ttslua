@@ -1,0 +1,104 @@
+local PlayermatApi         = require("playermat/PlayermatApi")
+local AllCardsBagApi            = require("playercards/AllCardsBagApi")
+
+--Beatrice
+button_parameters = {
+        click_function = "shuffleSakamoto",
+        function_owner = self,
+        label          = "Shuffle\nSakamoto",
+        position       = {1.75, 0.8, 0},
+        rotation       = {0, 0, 0},
+        width          = 375,
+        height         = 275,
+        font_size      = 60,
+        tooltip        = "Shuffle Sakamoto into the top 5 cards of an investigator's deck.",
+    }
+
+click_functions = {
+    "shuffleSakamotoBeatrice",
+    "shuffleSakamoto2",
+    "shuffleSakamoto3",
+    "shuffleSakamoto4",
+}
+
+button_positions = {
+    {1.45, 0.8, -1.25},
+    {1.45, 0.8, -0.25},
+    {1.45, 0.8, 0.25},
+    {1.45, 0.8, 1.25}
+}
+
+mat_colors = {}
+
+button_position_index = 2
+
+function onload()
+    Wait.time(
+        function() -- Executed after our condition is met
+            allMats = PlayermatApi.getUsedMatColors()
+            for matColor, mat in pairs(allMats) do
+                color = allMats[matColor]
+                investigator = PlayermatApi.getInvestigatorName(color)
+                if (investigator == "Beatrice Gray") then
+                    button_parameters.position = button_positions[1]
+                    button_parameters.click_function = click_functions[1]
+                    mat_colors[1] = color
+                else
+                    button_parameters.position = button_positions[button_position_index]
+                    mat_colors[button_position_index] = color
+                    button_parameters.click_function = click_functions[button_position_index]
+                    button_position_index = button_position_index + 1
+                end
+                button_parameters.label = investigator
+                --button_parameters.colors = matColor
+                self.createButton(button_parameters)
+            end
+        end,
+       10 --Ensures that this is ran after all decks loaded. Find a better way
+    )
+end
+
+--"Orange""Green""Red"
+function shuffleSakamotoIntoDeck(color)
+    deck = PlayermatApi.getDeckAreaObjects(color).draw
+    sakamoto = getObjectsWithTag("Sakamoto")[1]
+
+    if sakamoto == nil then
+        broadcastToAll("Sakamoto must be in play before he can be shuffeled into a player's deck!")
+    elseif deck.getQuantity() > 5 then
+        --print("Shuffle into deck more than 10 size")
+        splitDecks = deck.cut(deck.getQuantity() - 5)
+        Wait.frames(function ()
+            remaining = splitDecks[2]
+            top5 = splitDecks[1]
+            sakamoto.putObject(top5, 1)
+            top5.randomize()
+            remaining.setRotation(top5.getRotation())
+            remaining.putObject(top5, 1)
+            end
+            , 1
+        )
+    else
+        --print("Shuffle into deck with 5 or less size")
+        sakamoto.putObject(deck, 1)
+        deck.randomize()
+     end
+
+    end
+
+function shuffleSakamotoBeatrice()
+    shuffleSakamotoIntoDeck(mat_colors[1])
+end
+
+function shuffleSakamoto2()
+    shuffleSakamotoIntoDeck(mat_colors[2])
+end
+
+function shuffleSakamoto3()
+    shuffleSakamotoIntoDeck(mat_colors[3])
+end
+
+function shuffleSakamoto4()
+    shuffleSakamotoIntoDeck(mat_colors[4])
+end
+

@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102100,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1021": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/11884583176101032647/0FE1FDD9B0B876B036366E98772355490C0D5E10/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/13609648805378701323/9D2ECF86A1EE6541ECBBACFDD8556F5F4682A15A/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/SidneyDufrane.e00820.gmnotes",
+  "GUID": "e00820",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Sidney Dufrane",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Minicard",
+    "ScenarioCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 0.552,
+    "posY": 3.036,
+    "posZ": 11.334,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 178,
+    "scaleX": 0.6,
+    "scaleY": 1,
+    "scaleZ": 0.6
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

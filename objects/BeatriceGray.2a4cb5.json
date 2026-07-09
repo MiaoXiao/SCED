@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102900,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1029": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/14237172998285516805/D3A60E9AF231AEDEC0E376F555E93487795C5894/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18237712428047419820/A892E19B808D76A7B8AF4AF60357A314E5BE31A9/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "The Clerk",
+  "DragSelectable": true,
+  "GMNotes_path": "BeatriceGray.2a4cb5.gmnotes",
+  "GUID": "2a4cb5",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScriptState": "",
+  "LuaScript_path": "BeatriceGray.2a4cb5.ttslua",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Beatrice Gray",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Investigator",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 58.21,
+    "posY": 1.495,
+    "posZ": 29.637,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 0.82,
+    "scaleY": 1,
+    "scaleZ": 0.82
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

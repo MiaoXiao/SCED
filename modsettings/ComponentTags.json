@@ -95,6 +95,22 @@
     {
       "displayed": "PlayermatExtension",
       "normalized": "playermatextension"
+    },
+    {
+      "displayed": "White",
+      "normalized": "white"
+    },
+    {
+      "displayed": "Orange",
+      "normalized": "orange"
+    },
+    {
+      "displayed": "Green",
+      "normalized": "green"
+    },
+    {
+      "displayed": "Red",
+      "normalized": "red"
     }
   ]
 }

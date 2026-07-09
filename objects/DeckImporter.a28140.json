@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -16,16 +22,24 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2466368617691603054/ABA4AB3A811107629323CDA2765871EB36626242/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "a28140",
   "Grid": false,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"deckbuilder/DeckImporter\")",
   "LuaScriptState_path": "DeckImporter.a28140.luascriptstate",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Deck Importer",
   "Snap": false,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": -20.5,
@@ -37,5 +51,7 @@
     "scaleX": 10,
     "scaleY": 1,
     "scaleZ": 10
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

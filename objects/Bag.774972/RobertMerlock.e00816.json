@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102400,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1024": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/14159444628604198671/01B84A46EFE2D33C246E1F1EF9C9F738010EC25E/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15093072070984415100/0E339155FA7B0D8067463C950736368FF33D1039/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "The Curator",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/RobertMerlock.e00816.gmnotes",
+  "GUID": "e00816",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Robert Merlock",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Investigator",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 1.956,
+    "posY": 3.009,
+    "posZ": 11.271,
+    "rotX": 357,
+    "rotY": 270,
+    "rotZ": 4,
+    "scaleX": 0.82,
+    "scaleY": 1,
+    "scaleZ": 0.82
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

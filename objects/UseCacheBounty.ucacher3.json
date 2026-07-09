@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -16,14 +22,26 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/2021604000335808233/22B6C4A9FEE0814E6A9BDB2C833C79D66F8100B8/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "ucacher3",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Memo": "bounty",
   "Name": "Custom_Token",
   "Nickname": "Use Cache Bounty",
   "Snap": false,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": 78.92,
     "posY": 1.145,
@@ -34,5 +52,7 @@
     "scaleX": 0.17,
     "scaleY": 0.17,
     "scaleZ": 0.17
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

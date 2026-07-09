@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "Autoraise": false,
   "ColorDiffuse": {
     "b": 0.8027,
@@ -17,11 +22,20 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/12137986572338536952/E6288254D499A92575B61D0608DA4C3D96ECB4FE/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "7bff34",
   "Grid": false,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "TentacleStand",
   "PhysicsMaterial": {
@@ -53,5 +67,7 @@
     "scaleX": 20.4,
     "scaleY": 1,
     "scaleZ": 16.79
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

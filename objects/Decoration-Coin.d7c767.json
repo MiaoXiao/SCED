@@ -1,11 +1,19 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
     "ColliderURL": "https://steamusercontent-a.akamaihd.net/ugc/943949966265929204/A38BB5D72419E6298385556D931877C0A1A55C17/",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0,
       "SpecularColor": {
@@ -19,14 +27,27 @@
     "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/254843371583188147/920981125E37B5CEB6C400E3FD353A2C428DA969/",
     "MaterialIndex": 2,
     "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/943949966265929204/A38BB5D72419E6298385556D931877C0A1A55C17/",
+    "NormalURL": "",
     "TypeIndex": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "d7c767",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "Decoration - Coin",
+  "Snap": true,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": -54.093,
@@ -38,5 +59,7 @@
     "scaleX": 0.33,
     "scaleY": 0.33,
     "scaleZ": 0.33
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

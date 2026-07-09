@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 846400,
   "CustomDeck": {
     "8464": {
@@ -11,20 +17,39 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"09021-c\",\n  \"type\": \"UpgradeSheet\",\n  \"cycle\": \"The Scarlet Keys\"\n}",
   "GUID": "d2d01b",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/customizable/HuntersArmorUpgradeSheet\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Hunter's Armor Upgrade Sheet",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

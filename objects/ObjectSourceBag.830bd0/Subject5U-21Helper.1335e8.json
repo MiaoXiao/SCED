@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -15,6 +20,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -33,19 +39,38 @@
     "WidthScale": 0
   },
   "Description": "Place cards, decks or bags on this tile and click \"Update!\" to display the class counts.\n\nMulti-class cards are counted for all classes (so the total number will be greater than the amount of cards).",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "1335e8",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"accessories/Subject5U-21Helper\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Subject 5U-21 Helper",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 4,
     "scaleY": 1,
     "scaleZ": 4
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

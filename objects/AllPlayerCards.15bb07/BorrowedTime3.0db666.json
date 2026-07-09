@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 315253,
   "CustomDeck": {
     "3152": {
@@ -7,25 +13,44 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/960860672861853482/578CFD93B087B0ADA085E7A99062E6191772D6BD/",
       "NumHeight": 7,
       "NumWidth": 10,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/BorrowedTime3.0db666.gmnotes",
   "GUID": "0db666",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/cards/BorrowedTime\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Borrowed Time (3)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard",
     "CardWithHelper",
     "i18n_XML"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
   },
-  "XmlUI": "<Include src=\"playercards/BorrowedTime.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"playercards/BorrowedTime.xml\"/\u003e"
 }

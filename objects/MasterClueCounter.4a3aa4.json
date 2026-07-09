@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -17,16 +23,27 @@
     "WidthScale": 0
   },
   "Description": "Click to remove all clues from all investigators",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "4a3aa4",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"mythos/MasterClueCounter\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Master Clue Counter",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -5.9,
     "posY": 1.633,
@@ -37,5 +54,7 @@
     "scaleX": 0.42,
     "scaleY": 1,
     "scaleZ": 0.42
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

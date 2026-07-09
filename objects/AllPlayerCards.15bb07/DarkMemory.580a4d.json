@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 584101,
   "CustomDeck": {
     "5841": {
@@ -7,21 +13,41 @@
       "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/1655599785038865190/8B0106D5599808B6E00387C2535AC1C3F2330034/",
       "NumHeight": 2,
       "NumWidth": 2,
-      "Type": 0
+      "Type": 0,
+      "UniqueBack": false
     }
   },
   "Description": "Advanced",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/DarkMemory.580a4d.gmnotes",
   "GUID": "580a4d",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Dark Memory",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

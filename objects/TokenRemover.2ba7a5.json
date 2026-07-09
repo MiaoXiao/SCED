@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -17,16 +23,27 @@
     "WidthScale": 0
   },
   "Description": "See Notebook for details.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "2ba7a5",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"tokens/TokenRemover\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Token Remover",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -45.3,
     "posY": 1.481,
@@ -37,5 +54,7 @@
     "scaleX": 0.8,
     "scaleY": 1,
     "scaleZ": 0.8
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

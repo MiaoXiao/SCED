@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0.0083,
@@ -17,20 +23,30 @@
     "WidthScale": 0
   },
   "Description": "Use contextmenu option to enable broadcasting phase changes.\nLeft-click: Next phase\nRight-click: Previous phase",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "d0c8fa",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playarea/PhaseTracker\")",
   "LuaScriptState": "{\"broadcastChange\":false,\"moreDetails\":false,\"phaseId\":1}",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Phase Tracker",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
     "displacement_excluded",
     "LinkedPhaseTracker"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -11.3,
     "posY": 1.52,
@@ -41,5 +57,7 @@
     "scaleX": 1.5,
     "scaleY": 1,
     "scaleZ": 1.5
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

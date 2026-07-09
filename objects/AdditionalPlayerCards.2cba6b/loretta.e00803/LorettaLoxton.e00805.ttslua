@@ -42,7 +42,7 @@ function onLoad()
     flame_token.setCustomObject(
         {
             type = 2,
-            image = "https://steamusercontent-a.akamaihd.net/ugc/11527309903195843036/CD69B446C2CE29FFA5E9BED13B899AF8E519F551/",
+            image = "https://steamusercontent-a.akamaihd.net/ugc/13081492046280773909/858CEF5BE0E580A6734A88AB95922E9B92376215/",
             thickness = 0.2,
             stackable = false
         }

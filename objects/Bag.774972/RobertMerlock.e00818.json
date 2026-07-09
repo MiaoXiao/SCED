@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102300,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1023": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/11365291103271069588/518ED936AE8EA2DF420C556B61B9E61FB40CD723/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/17610286808767716613/82F6C65E2289588880B145D22A21196C6A8EAE32/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/RobertMerlock.e00818.gmnotes",
+  "GUID": "e00818",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Robert Merlock",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Minicard",
+    "ScenarioCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": -1.924,
+    "posY": 3.029,
+    "posZ": 11.343,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 0.6,
+    "scaleY": 1,
+    "scaleZ": 0.6
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

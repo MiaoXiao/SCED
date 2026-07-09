@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -16,14 +22,24 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/11910679705282911738/11F585F994A1A1244378F71FC967C8675281D2B6/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "2d30ee",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playercards/PlayerCardPanel\")",
   "LuaScriptState_path": "PlayerCards.2d30ee.luascriptstate",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Player Cards",
+  "Snap": true,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": 60,
@@ -35,5 +51,7 @@
     "scaleX": 10,
     "scaleY": 1,
     "scaleZ": 10
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

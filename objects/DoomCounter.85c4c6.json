@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -23,17 +29,28 @@
       "URL": "https://steamusercontent-a.akamaihd.net/ugc/2027213118467703445/89328E273B4C5180BF491516CE998DE3C604E162/"
     }
   ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "85c4c6",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"mythos/DoomCounter\")",
   "LuaScriptState": "[0,{\"Agenda\":true,\"Playarea\":true,\"Playermats\":true}]",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Doom Counter",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -5.9,
     "posY": 1.633,
@@ -45,5 +62,6 @@
     "scaleY": 1,
     "scaleZ": 0.42
   },
-  "XmlUI": "<Include src=\"DoomCounter.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"DoomCounter.xml\"/\u003e"
 }

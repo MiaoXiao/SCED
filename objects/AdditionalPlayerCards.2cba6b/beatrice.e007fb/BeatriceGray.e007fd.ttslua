@@ -11,7 +11,7 @@ button_parameters = {
         width          = 375,
         height         = 275,
         font_size      = 60,
-        tooltip        = "Shuffle Sakamoto into the top 10 cards of an investigator's deck.",
+        tooltip        = "Shuffle Sakamoto into the top 5 cards of an investigator's deck.",
     }
 
 click_functions = {
@@ -65,9 +65,9 @@ function shuffleSakamotoIntoDeck(color)
 
     if sakamoto == nil then
         broadcastToAll("Sakamoto must be in play before he can be shuffeled into a player's deck!")
-    elseif deck.getQuantity() > 10 then
+    elseif deck.getQuantity() > 5 then
         --print("Shuffle into deck more than 10 size")
-        splitDecks = deck.cut(deck.getQuantity() - 10)
+        splitDecks = deck.cut(deck.getQuantity() - 5)
         Wait.frames(function ()
             remaining = splitDecks[2]
             top10 = splitDecks[1]

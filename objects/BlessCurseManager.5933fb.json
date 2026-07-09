@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -17,18 +23,28 @@
     "WidthScale": 0
   },
   "Description": "Left-Click: Add token\nRight-Click: Remove token\n\nContextmenu allows resetting the current state or removing all bless/curse tokens from play.\n\nCheck cards that seal tokens for a context menu.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "5933fb",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"chaosbag/BlessCurseManager\")",
   "LuaScriptState": "false",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Bless/Curse Manager",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore",
     "displacement_excluded"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -48.2,
     "posY": 1.531,
@@ -39,5 +55,7 @@
     "scaleX": 0.8,
     "scaleY": 1,
     "scaleZ": 0.8
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

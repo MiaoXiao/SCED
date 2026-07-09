@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 6506800,
   "CustomDeck": {
     "65068": {
@@ -11,17 +17,37 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"11068b-m\",\n  \"type\": \"Minicard\"\n}",
   "GUID": "abc068b",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Lost Homunculus",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Minicard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 0.6,
     "scaleY": 1,
     "scaleZ": 0.6
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

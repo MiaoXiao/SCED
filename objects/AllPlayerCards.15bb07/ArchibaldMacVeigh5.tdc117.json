@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 6611700,
   "CustomDeck": {
     "66117": {
@@ -12,19 +18,38 @@
     }
   },
   "Description": "Beleagured Lecturer",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/ArchibaldMacVeigh5.tdc117.gmnotes",
   "GUID": "tdc117",
+  "Grid": true,
+  "GridProjection": false,
   "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Archibald MacVeigh (5)",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

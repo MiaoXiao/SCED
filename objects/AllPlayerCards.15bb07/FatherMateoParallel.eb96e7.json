@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 4004200,
   "CustomDeck": {
     "40042": {
@@ -19,22 +25,39 @@
     }
   ],
   "Description": "The Priest",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/FatherMateoParallel.eb96e7.gmnotes",
   "GUID": "eb96e7",
+  "Grid": true,
+  "GridProjection": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/cards/FatherMateoParallel\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Father Mateo (Parallel)",
   "SidewaysCard": true,
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Investigator",
     "PlayerCard",
     "CardWithHelper"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 180,
+    "rotZ": 0,
     "scaleX": 1.15,
     "scaleY": 1,
     "scaleZ": 1.15
   },
-  "XmlUI": "<Include src=\"playercards/FatherMateoParallel.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"playercards/FatherMateoParallel.xml\"/\u003e"
 }

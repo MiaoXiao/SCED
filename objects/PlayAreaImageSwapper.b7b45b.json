@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0.37452,
     "g": 0.37452,
@@ -17,20 +23,30 @@
     "WidthScale": 0
   },
   "Description": "Allows changing of the playarea image. Provide URL to the image or leave empty for default image.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "b7b45b",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playarea/PlayAreaSelector\")",
   "LuaScriptState": "{\"selectionIndex\":1,\"typeIndex\":1}",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "PlayArea Image Swapper",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
     "displacement_excluded",
     "NotInteractable"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -10.36,
     "posY": 1.5,
@@ -41,5 +57,7 @@
     "scaleX": 0.5,
     "scaleY": 1,
     "scaleZ": 0.5
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

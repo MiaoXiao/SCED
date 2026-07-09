@@ -1,4 +1,13 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "Bag": {
+    "Order": 0
+  },
   "ColorDiffuse": {
     "b": 0.63589,
     "g": 0.16729,
@@ -14,12 +23,27 @@
     "UniversalActionAbilityToken.834ad5"
   ],
   "ContainedObjects_path": "TokenSource.124381",
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "124381",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
   "Name": "Bag",
   "Nickname": "Token Source",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": 78,
     "posY": 1.047,
@@ -30,5 +54,7 @@
     "scaleX": 0.53,
     "scaleY": 0.53,
     "scaleZ": 0.53
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

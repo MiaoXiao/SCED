@@ -1,0 +1,72 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "Bag": {
+    "Order": 0
+  },
+  "ColorDiffuse": {
+    "b": 0,
+    "g": 0.36652,
+    "r": 0.70588
+  },
+  "ContainedObjects_order": [
+    "RobertMerlock.e00816",
+    "SidneyDufrane.e00820",
+    "LorettaLoxton.e00807",
+    "RobertMerlock.e00818",
+    "MannySmith.e00810",
+    "PathofFire.e00809",
+    "SidneyDufrane.e0081e",
+    "AncientAwakening.e00801",
+    "BeatriceGray.e007ff",
+    "RobertsBriefcase.e0081b",
+    "SequinDress.e00822",
+    "TheGreatswordofLoxton.e0080b",
+    "Vanity.e00823",
+    "BadPublicity.e00812",
+    "MannySmith.e0080e",
+    "Sakamoto.e00802",
+    "StalkingApparition.e0080a",
+    "CurfewEnforcement.e00813",
+    "NoDeal.e0081a"
+  ],
+  "ContainedObjects_path": "Bag.774972",
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
+  "GUID": "774972",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": false,
+  "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
+  "Name": "Bag",
+  "Nickname": "",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
+  "Transform": {
+    "posX": 63.071,
+    "posY": 1.296,
+    "posZ": 28.238,
+    "rotX": 0,
+    "rotY": 90,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

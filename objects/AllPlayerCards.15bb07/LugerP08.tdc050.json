@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 6605000,
   "CustomDeck": {
     "66050": {
@@ -11,23 +17,41 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/LugerP08.tdc050.gmnotes",
   "GUID": "tdc050",
+  "Grid": true,
+  "GridProjection": false,
   "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/cards/LugerP08\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Luger P08",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "PlayerCard",
     "CardWithHelper",
     "i18n_XML"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
   },
-  "XmlUI": "<Include src=\"playercards/Luger.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"playercards/Luger.xml\"/\u003e"
 }

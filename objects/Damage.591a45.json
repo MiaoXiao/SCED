@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "Autoraise": false,
   "ColorDiffuse": {
     "b": 1,
@@ -18,15 +23,24 @@
     "WidthScale": 0
   },
   "Description": "Left- or right-click to change the value or type numbers while hovering.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "591a45",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"tokens/GenericCounter\")",
   "LuaScriptState": "0",
+  "MeasureMovement": false,
   "Memo": "damage",
   "Name": "Custom_Token",
   "Nickname": "Damage",
+  "Snap": true,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": -23.521,
@@ -38,5 +52,7 @@
     "scaleX": 0.3,
     "scaleY": 1,
     "scaleZ": 0.3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -11,13 +17,24 @@
     "PDFUrl": "https://steamusercontent-a.akamaihd.net/ugc/15980162402107223821/A47EA7A2D728BAF7CDDB9AD395909990E988BFBF/"
   },
   "Description": "Chapter 2",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"RulesReference2\"\n}",
   "GUID": "rules2",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_PDF",
   "Nickname": "Rules Reference",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": -62,
     "posY": 1.481,
@@ -28,5 +45,7 @@
     "scaleX": 4.5,
     "scaleY": 1,
     "scaleZ": 4.5
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

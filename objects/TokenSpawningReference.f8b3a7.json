@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -17,17 +23,29 @@
     "WidthScale": 0
   },
   "Description": "Press a numpad key to spawn the indicated token.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "f8b3a7",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Token Spawning Reference",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
     "displacement_excluded"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": 8,
     "posY": 1.481,
@@ -38,5 +56,7 @@
     "scaleX": 3.5,
     "scaleY": 1,
     "scaleZ": 3.5
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

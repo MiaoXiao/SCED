@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -8,6 +13,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -26,13 +32,24 @@
     "WidthScale": 0
   },
   "Description": "This tool can generate a description for your deck on ArkhamDB that will instruct the Deck Importer to add the specified cards.\n\nThe cards need to be available (either from the AllCardsBag or the 'Additional Playercards Box').\n\nThe instructions will be added to the Notebook (button at the top of your screen) and there'll be an explanation included.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "240522",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"deckbuilder/DeckInstructionGenerator\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Deck Instruction Generator",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": -15,
     "posY": 1.481,
@@ -43,5 +60,7 @@
     "scaleX": 3,
     "scaleY": 1,
     "scaleZ": 3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

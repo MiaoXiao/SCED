@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -16,13 +22,25 @@
     "ImageURL": "https://steamusercontent-a.akamaihd.net/ugc/16303708290518846225/CB5398B1A7D17640AF7E11410A9BF166304A1323/",
     "WidthScale": 0
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes": "{\n  \"id\": \"RoundSequence\"\n}",
   "GUID": "2eca7c",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Round Sequence",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": -59,
     "posY": 1.5,
@@ -33,5 +51,7 @@
     "scaleX": 3.3,
     "scaleY": 1,
     "scaleZ": 3.3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

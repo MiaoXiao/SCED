@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 6600900,
   "CustomDeck": {
     "66009": {
@@ -12,21 +18,39 @@
     }
   },
   "Description": "Esoteric Eyepiece (including errata)",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/OculaObscura.tdc009.gmnotes",
   "GUID": "tdc009",
+  "Grid": true,
+  "GridProjection": false,
   "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"playercards/cards/OculaObscura\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "CardCustom",
   "Nickname": "Ocula Obscura",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "Asset",
     "CardWithHelper",
     "PlayerCard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

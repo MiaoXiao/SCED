@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "a": 0.27843,
     "b": 1,
@@ -6,6 +12,9 @@
     "r": 1
   },
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0,
       "SpecularColor": {
@@ -19,16 +28,28 @@
     "DiffuseURL": "https://steamusercontent-a.akamaihd.net/ugc/16929582695947484371/C5D511583DD279E09E16859A504B69AA0BB93AFA/",
     "MaterialIndex": 3,
     "MeshURL": "https://steamusercontent-a.akamaihd.net/ugc/62583916778515333/9F0BE0C211BE3BD1725B4B855F5D3C9C0D020394/",
+    "NormalURL": "",
     "TypeIndex": 0
   },
   "Description": "by Fantasy Flight Games",
+  "DragSelectable": true,
   "GMNotes": "{\"filename\":\"film_fatale\"}",
   "GUID": "45e513",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
   "LuaScript": "require(\"core/DownloadBox\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Model",
   "Nickname": "Film Fatale",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": 40,
     "posY": 1.481,
@@ -39,5 +60,7 @@
     "scaleX": 2.21,
     "scaleY": 0.46,
     "scaleZ": 2.42
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

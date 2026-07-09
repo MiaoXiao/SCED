@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 103000,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1030": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/16653081791878185349/3E36EE59206CD50CBB2F42A6BDF64CED905A2D04/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/18424244911510000027/51B5D73A929B1B22B67B9D47778BFE6B1694DFBF/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "The Vigilante",
+  "DragSelectable": true,
+  "GMNotes_path": "LorettaLoxton.6003a7.gmnotes",
+  "GUID": "6003a7",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScriptState": "",
+  "LuaScript_path": "LorettaLoxton.6003a7.ttslua",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Loretta Loxton",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Investigator",
+    "PlayerCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 57.415,
+    "posY": 1.495,
+    "posZ": 26.242,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 0.82,
+    "scaleY": 1,
+    "scaleZ": 0.82
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

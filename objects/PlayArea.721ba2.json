@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -936,6 +941,7 @@
       ]
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -960,14 +966,24 @@
       "URL": "https://steamusercontent-a.akamaihd.net/ugc/2027213118467703445/89328E273B4C5180BF491516CE998DE3C604E162/"
     }
   ],
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "721ba2",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playarea/PlayArea\")",
   "LuaScriptState_path": "PlayArea.721ba2.luascriptstate",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Play Area",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CameraZoom_ignore",
     "CleanUpHelper_ignore",
@@ -987,5 +1003,6 @@
     "scaleY": 1,
     "scaleZ": 10
   },
-  "XmlUI": "<Include src=\"PlayArea.xml\"/>"
+  "Value": 0,
+  "XmlUI": "\u003cInclude src=\"PlayArea.xml\"/\u003e"
 }

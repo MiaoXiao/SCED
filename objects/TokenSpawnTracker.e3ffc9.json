@@ -1,17 +1,34 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0.33333,
     "g": 0.33333,
     "r": 0.35366
   },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "e3ffc9",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"tokens/TokenSpawnTracker\")",
   "LuaScriptState": "{\"cards\":[]}",
+  "MeasureMovement": false,
   "Name": "Checker_white",
   "Nickname": "Token Spawn Tracker",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": 78,
     "posY": 1.395,
@@ -22,5 +39,7 @@
     "scaleX": 1,
     "scaleY": 1,
     "scaleZ": 1
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 258701,
   "ContainedObjects_path": "DaisyWalker.bce6a5",
   "CustomDeck": {
@@ -12,22 +18,41 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/DaisyWalker.bce6a5.gmnotes",
   "GUID": "bce6a5",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Daisy Walker",
   "Snap": false,
   "States_path": {
     "2": "DaisyWalker.5fa10d"
   },
+  "Sticky": true,
   "Tags": [
     "Minicard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 0.6,
     "scaleY": 1,
     "scaleZ": 0.6
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "CardID": 258600,
   "ContainedObjects_path": "RolandBanks.5bde90",
   "CustomDeck": {
@@ -12,9 +18,19 @@
       "UniqueBack": true
     }
   },
+  "Description": "",
+  "DragSelectable": true,
   "GMNotes_path": "AllPlayerCards.15bb07/RolandBanks.5bde90.gmnotes",
   "GUID": "5bde90",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Card",
   "Nickname": "Roland Banks",
   "Snap": false,
@@ -22,13 +38,22 @@
     "2": "RolandBanks.cb8701",
     "3": "RolandBanks.355b0c"
   },
+  "Sticky": true,
   "Tags": [
     "Minicard"
   ],
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
     "rotY": 270,
+    "rotZ": 0,
     "scaleX": 0.6,
     "scaleY": 1,
     "scaleZ": 0.6
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

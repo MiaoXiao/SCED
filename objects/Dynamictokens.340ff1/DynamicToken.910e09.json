@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -17,16 +23,36 @@
     "WidthScale": 0
   },
   "Description": "Adapts to the uses of the card below when dropped.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "910e09",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Memo": "dynamic",
   "Name": "Custom_Token",
   "Nickname": "Dynamic Token",
   "Snap": false,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
+    "posX": 0,
+    "posY": 0,
+    "posZ": 0,
+    "rotX": 0,
+    "rotY": 0,
+    "rotZ": 0,
     "scaleX": 0.17,
     "scaleY": 0.17,
     "scaleZ": 0.17
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -17,18 +23,28 @@
     "WidthScale": 0
   },
   "Description": "Displays the stats of your investigator and can be clicked to increase / decrease the stats.\n\nSee context menu for additional information.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "e74881",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"playermat/InvestigatorSkillTracker\")",
   "LuaScriptState": "[1,1,1,1]",
+  "MeasureMovement": false,
   "Name": "Custom_Token",
   "Nickname": "Investigator Skill Tracker",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "CleanUpHelper_ignore",
     "displacement_excluded"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -23.348,
     "posY": 1.531,
@@ -39,5 +55,7 @@
     "scaleX": 0.95,
     "scaleY": 1,
     "scaleZ": 0.95
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

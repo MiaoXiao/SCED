@@ -1,0 +1,62 @@
+{
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "CardID": 102700,
+  "ColorDiffuse": {
+    "b": 0.71324,
+    "g": 0.71324,
+    "r": 0.71324
+  },
+  "CustomDeck": {
+    "1027": {
+      "BackIsHidden": true,
+      "BackURL": "https://steamusercontent-a.akamaihd.net/ugc/10174012404896182254/CF8881DBF42C9C6B3B06A50A9DD9BACE7D00F74D/",
+      "FaceURL": "https://steamusercontent-a.akamaihd.net/ugc/15617727887192155962/E4E7D8FDF1B6B3F9EC0EA1C538505F477D75E523/",
+      "NumHeight": 1,
+      "NumWidth": 1,
+      "Type": 0,
+      "UniqueBack": true
+    }
+  },
+  "Description": "",
+  "DragSelectable": true,
+  "GMNotes_path": "Bag.774972/LorettaLoxton.e00807.gmnotes",
+  "GUID": "e00807",
+  "Grid": true,
+  "GridProjection": false,
+  "Hands": true,
+  "HideWhenFaceDown": true,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
+  "Locked": false,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
+  "Name": "Card",
+  "Nickname": "Loretta Loxton",
+  "SidewaysCard": false,
+  "Snap": true,
+  "Sticky": true,
+  "Tags": [
+    "Minicard",
+    "ScenarioCard"
+  ],
+  "Tooltip": true,
+  "Transform": {
+    "posX": 1.672,
+    "posY": 3.053,
+    "posZ": 11.325,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 3,
+    "scaleX": 0.58,
+    "scaleY": 1,
+    "scaleZ": 0.58
+  },
+  "Value": 0,
+  "XmlUI": ""
+}

@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "AttachedSnapPoints": [
     {
       "Position": {
@@ -8,6 +13,7 @@
       }
     }
   ],
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -26,17 +32,28 @@
     "WidthScale": 0
   },
   "Description": "This tool applies the correct (high resolution) PlayerCard or ScenarioCard back to cards / decks that are dropped on it. It requires the respective tag on each card.\n\nWhy would you need this?\na) You're creating custom content and some cards have the wrong back for some reason.\nb) You're playing custom content and noticed that a card uses an old (low resolution) PlayerCard or ScenarioCard back.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "87450c",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"core/CardBackEnhancer\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Card Back Enhancer",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "PlayerCard",
     "ScenarioCard"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -15,
     "posY": 1.481,
@@ -47,5 +64,7 @@
     "scaleX": 2.67,
     "scaleY": 1,
     "scaleZ": 2.67
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

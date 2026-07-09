@@ -1,4 +1,13 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
+  "Bag": {
+    "Order": 0
+  },
   "ColorDiffuse": {
     "b": 1,
     "g": 1,
@@ -19,6 +28,9 @@
   ],
   "ContainedObjects_path": "Fan-MadeAccessories.aa8b38",
   "CustomMesh": {
+    "CastShadows": true,
+    "ColliderURL": "",
+    "Convex": true,
     "CustomShader": {
       "FresnelStrength": 0.5,
       "SpecularColor": {
@@ -36,12 +48,26 @@
     "TypeIndex": 6
   },
   "Description": "This barrel contains some miscelleaneous accessories.\n\nAlso take a look at the option panel (gear icon at the bottom right) for more tools.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "aa8b38",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
+  "LuaScript": "",
+  "LuaScriptState": "",
+  "MaterialIndex": -1,
+  "MeasureMovement": false,
+  "MeshIndex": -1,
   "Name": "Custom_Model_Bag",
   "Nickname": "Fan-Made Accessories",
+  "Snap": true,
+  "Sticky": true,
+  "Tooltip": true,
   "Transform": {
     "posX": -61.64,
     "posY": 1.527,
@@ -52,5 +78,7 @@
     "scaleX": 0.9,
     "scaleY": 0.85,
     "scaleZ": 0.9
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

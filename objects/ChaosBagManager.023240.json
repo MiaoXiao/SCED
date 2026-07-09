@@ -1,4 +1,10 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "Autoraise": true,
   "ColorDiffuse": {
     "b": 0,
     "g": 0,
@@ -17,16 +23,27 @@
     "WidthScale": 0
   },
   "Description": "Adds/removes the desired token from the chaos bag.\n\nSee context menu for additional information.",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "023240",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"chaosbag/ChaosBagManager\")",
+  "LuaScriptState": "",
+  "MeasureMovement": false,
   "Name": "Custom_Tile",
   "Nickname": "Chaos Bag Manager",
+  "Snap": true,
+  "Sticky": true,
   "Tags": [
     "displacement_excluded"
   ],
+  "Tooltip": true,
   "Transform": {
     "posX": -1,
     "posY": 1.481,
@@ -37,5 +54,7 @@
     "scaleX": 4.8,
     "scaleY": 1,
     "scaleZ": 4.8
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }

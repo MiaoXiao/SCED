@@ -1,4 +1,9 @@
 {
+  "AltLookAngle": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
   "Autoraise": false,
   "ColorDiffuse": {
     "b": 1,
@@ -18,15 +23,24 @@
     "WidthScale": 0
   },
   "Description": "Left click - Increase\nRight click - Decrease",
+  "DragSelectable": true,
+  "GMNotes": "",
   "GUID": "cd15ac",
+  "Grid": true,
+  "GridProjection": false,
   "Hands": false,
   "HideWhenFaceDown": false,
+  "IgnoreFoW": false,
+  "LayoutGroupSortIndex": 0,
   "Locked": true,
   "LuaScript": "require(\"tokens/GenericCounter\")",
   "LuaScriptState": "5",
+  "MeasureMovement": false,
   "Memo": "resourceCounter",
   "Name": "Custom_Token",
   "Nickname": "Resources",
+  "Snap": true,
+  "Sticky": true,
   "Tooltip": false,
   "Transform": {
     "posX": -38.831,
@@ -38,5 +52,7 @@
     "scaleX": 0.3,
     "scaleY": 1,
     "scaleZ": 0.3
-  }
+  },
+  "Value": 0,
+  "XmlUI": ""
 }
